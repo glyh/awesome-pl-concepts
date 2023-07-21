@@ -79,3 +79,7 @@
   - Implementation: [OCaml](https://ocaml.org/) [row polymorphism](https://www.cl.cam.ac.uk/teaching/1415/L28/rows.pdf)
   - Pros: 
     - Flexibility compared to subtyping
+
+#### Effect System
+  - Description: A system similar to type system, but tracks side effects instead of type of the value.
+  - Implementation: (koka)[https://koka-lang.github.io/koka/doc/index.html] [effect system](https://en.wikipedia.org/wiki/Effect_system)
