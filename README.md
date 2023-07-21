@@ -10,7 +10,7 @@ Code generation is the techniques for generating codes via codes.
   - Pros: DRY, Productibility
   - Cons: Debuggablility, Readablility
 
-2. macros that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope) -- [Scheme](https://www.scheme.com/) [Hygeneic macro](https://docs.scheme.org/guide/macros/)
+2. lisp macros that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope) -- [Scheme](https://www.scheme.com/) [Hygeneic macro](https://docs.scheme.org/guide/macros/)
   - Related: 1
   - Pros: Debuggablility 
 
