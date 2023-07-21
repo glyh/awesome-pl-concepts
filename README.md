@@ -1,5 +1,5 @@
 ## Rationale
-Features get reinvented time overtime. As a non-academic compiler writer I feel exhausted trying to catch up with all features possible in all languages.
+Features get reinvented over and over again. As a non-academic compiler writer I feel exhausted trying to catch up with all features possible in all languages.
 
 However, they are of great importance in that it may inspire other people to design a better language. Hence I decide to start this project to keep track of all exisiting/imagined features that I can gather on the world, you can sort of think of this as a cheatsheet/treasure map for features of languages. 
 
