@@ -19,9 +19,13 @@ When using non-trivial terms, please attach some links that may explain it. Wiki
 
 Each feature is assigned a unique number, for the ease of indexing.
 
+For each feature, write some keywords on how does it benefit the programmer who is using this feature. Also, write some keywords on how it will become a draw back.
+
 #### Language
 Use algol-like(C, Rust, Java, JavaScript) syntax when describing a feature, unless you have a better reason for using another syntax.
 
 ## List of features
 
 1. AST-based code generation in a [homoiconic](https://en.wikipedia.org/wiki/Homoiconicity) and dynamically-typed language -- [Lisp](https://lisp-lang.org/) [macros](https://lispcookbook.github.io/cl-cookbook/macros.html)
+  - Pros: DRY, Productibility
+  - Cons: Debuggablility, Readablility
