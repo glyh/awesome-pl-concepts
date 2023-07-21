@@ -11,9 +11,11 @@ The title of a feature should be within 30 words. If it's too long or your descr
 
 At the end of the title, you should list 1 to 3 langauges with that feature in mind so people may look up more information on the internet.
 
+When using non-trivial terms, please attach some links that may explain it. Wikipedia is good enough. Some well-known terms can be leave as is. For example AST, dynamically-typed, etc.
+
 #### Language
 Use algol-like(C, Rust, Java, JavaScript) syntax when describing a feature, unless you have a better reason for using another syntax.
 
 ## List of features
 
-- AST-based macro in a homoiconic and dynamically-typed language -- LISP
+- AST-based [macro](https://en.wikipedia.org/wiki/Macro_(computer_science)) in a [homoiconic](https://en.wikipedia.org/wiki/Homoiconicity) and dynamically-typed language -- LISP
