@@ -1,6 +1,10 @@
 ## Convention
 Languages looks different from one to another. While there're some academically approved ways to represent some concepts, some of them are not formalized. Here we decide to write some convention on the description of the feature so they are easier to read and reason about.
 
+#### How trivial is trivial? 
+
+We only accept features that is not wildly accepted by languages existing on the market up till 2022. It's true that langauges are evolving all the time, and some features may become trivial in the future. To keep everything simple, we decide to leave things as is.  
+
 #### Format
 The title of a feature should be within 30 words. If it's too long or your description doesn't precisely match what you mean, (e.g. "A 'SynthiGen' feature that will generate synthetic data for realistic simulations and testing." -- ChatGPT), then probably that feature is too complicated to use. 
 
@@ -14,6 +18,4 @@ For each feature, write some keywords on how does it benefit the programmer who 
 
 Each feature may list a number of related feature id.
 
-#### Language
 Use algol-like(C, Rust, Java, JavaScript) syntax when describing a feature, unless you have a better reason for using another syntax.
-
