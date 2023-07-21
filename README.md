@@ -11,7 +11,7 @@
 #### Hygienic Macros
   - Description: Lisp macros that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope) -- 
   - Implementation: [Scheme](https://www.scheme.com/) [Hygienic macro](https://docs.scheme.org/guide/macros/)
-  - Related: [1](https://github.com/glyh/nontrivial-PL-features#1-compile-time-ast-based-code-generation-in-a-homoiconic-and-dynamically-typed-language----lisp-macros)
+  - Related: [Lisp Macros](1https://github.com/glyh/nontrivial-PL-features#lisp-macros)
   - Pros: Debuggablility 
 
 #### Comptime
