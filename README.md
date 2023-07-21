@@ -10,7 +10,7 @@
   - Related: [1](https://github.com/glyh/nontrivial-PL-features#1-runtime-and-compile-time-ast-based-code-generation-in-a-homoiconic-and-dynamically-typed-language----lisp-macros)
   - Pros: Debuggablility 
 
-#### 3. Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time) and type types in compile time -- [Zig](https://ziglang.org/) [comptime](https://ziglang.org/documentation/master/#comptime)
+#### 3. Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time) and compile-time [duck-typing](https://en.wikipedia.org/wiki/Duck_typing) -- [Zig](https://ziglang.org/) [comptime](https://ziglang.org/documentation/master/#comptime)
   - Pros: 
     - Eliminate the need of generics: generics are just compile time evaluated function from types to types
   - Cons: Compilation speed
