@@ -16,4 +16,8 @@
   - Cons: Compilation speed
 
 #### 4. A structural way for obtain data from complicated [data structures](https://en.wikipedia.org/wiki/Data_structure) -- [Haskell](https://www.haskell.org/) [pattern matching](https://www.haskell.org/tutorial/patterns.html)
-  - Pros: Clarity, Optimizabililty
+  - Pros: Readablility, Optimizabililty
+
+#### 5. A syntax sugar for writing [preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)) [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial -- [Javascript](https://www.javascript.com/) (async-await)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function]
+  - Pros: Readability
+  - Cons: Uncontrolable
