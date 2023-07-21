@@ -3,49 +3,62 @@
 ## List of features
 
 #### Lisp Macros
-  - Description: [Compile-time](https://en.wikipedia.org/wiki/Compile_time) [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree)-based code generation in a [homoiconic](https://en.wikipedia.org/wiki/Homoiconicity) and [dynamically-typed](https://en.wikipedia.org/wiki/Type_system#Dynamic_type_checking_and_runtime_type_information) language
-  - Implementation: [Lisp](https://lisp-lang.org/) [macros](https://lispcookbook.github.io/cl-cookbook/macros.html)
+  - Description: [Compile-time](https://en.wikipedia.org/wiki/Compile_time) [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree)-based code generation in a [homoiconic](https://en.wikipedia.org/wiki/Homoiconicity) and [dynamically-typed](https://en.wikipedia.org/wiki/Type_system#Dynamic_type_checking_and_runtime_type_information) language.
+  - Implementation: [Common Lisp](https://lisp-lang.org/) [macros](https://lispcookbook.github.io/cl-cookbook/macros.html)
   - Pros: DRY, Productibility
   - Cons: Debuggablility, Readablility, Performance Predictablity
 
 #### Hygienic Macros
-  - Description: Lisp macros that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope)
+  - Description: Lisp macros that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope).
   - Implementation: [Scheme](https://www.scheme.com/) [Hygienic macro](https://docs.scheme.org/guide/macros/)
   - Related: [Lisp Macros](1https://github.com/glyh/nontrivial-PL-features#lisp-macros)
   - Pros: Debuggablility 
 
 #### Comptime
-  - Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time) and compile-time [duck-typing](https://en.wikipedia.org/wiki/Duck_typing)
+  - Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time) and compile-time [duck-typing](https://en.wikipedia.org/wiki/Duck_typing).
   - Implementation: [Zig](https://ziglang.org/) [comptime](https://ziglang.org/documentation/master/#comptime)
   - Pros: 
     - Eliminate the need of generics: generics are just compile time evaluated function from types to types
   - Cons: Compilation speed
 
 #### Pattern matching 
-  - Description: A structural way for obtain data from complicated [data structures](https://en.wikipedia.org/wiki/Data_structure)
+  - Description: A structural way for obtain data from complicated [data structures](https://en.wikipedia.org/wiki/Data_structure).
   - Implementation: [Haskell](https://www.haskell.org/) [pattern matching](https://www.haskell.org/tutorial/patterns.html)
   - Pros: Readablility, Optimizabililty
 
 #### Async-await
-  - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial
+  - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial.
   - Implementation: [Javascript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   - Pros: Readability
   - Cons: Uncontrolable
 
 #### Coroutine 
-  - Description: A syntax sugar for structuring [cooperative](https://en.wikipedia.org/wiki/Cooperative_multitasking) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code modularly
+  - Description: A syntax sugar for structuring [cooperative](https://en.wikipedia.org/wiki/Cooperative_multitasking) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code modularly.
   - Implementation: [Lua](https://www.lua.org/) [coroutine](https://www.lua.org/pil/9.1.html)
   - Pros: Readablility
 
 #### Universal Function Call Syntax
-  - Description: A syntax sugar for function call that makes chaining function calls easy 
+  - Description: A syntax sugar for function call that makes chaining function calls easy.
   - Implementation: [Nim](https://nim-lang.org/) [UFCS](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Pros: Readablility
 
 #### Lazy Evaluation
-  - Description: any portion of the code is evaluated only when needed 
+  - Description: Any portion of the code is evaluated only when needed.
   - Implementation: [Haskell](https://www.haskell.org/) [lazy evaluation](https://wiki.haskell.org/Lazy_evaluation)
   - Pros: 
     - Easy to implement infinite data structures
     - Potential performance boost by not evaluating unnecessary code
   - Cons: Undebuggable
+
+#### Ownership
+  - Description: A system that helps compiler decide when to free [heap-allocated memory](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation).
+  - Implementation: [Rust](https://www.rust-lang.org/) [Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
+  - Pros: Performance
+  - Cons: Readablility, Developer-friendliness 
+
+#### Garbage Collection
+  - Description: A system that free unused [heap-allocated](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) memory in [runtime](https://en.wikipedia.org/wiki/Runtime_system)
+  - Implementation: [Common Lisp](https://lisp-lang.org/) [GC](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
+  - Pros: Developer-friendliness
+  - Cons: Performance
+
