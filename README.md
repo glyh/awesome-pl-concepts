@@ -6,5 +6,14 @@ However, they are of great importance in that it may inspire other people to des
 ## Convention
 Languages looks different from one to another. While there're some academically approved ways to represent some concepts, some of them are not formalized. Here we decide to write some convention on the description of the feature so they are easier to read and reason about.
 
+#### Format
+The title of a feature should be within 30 words. If it's too long or your description doesn't precisely match what you mean, (e.g. "A 'SynthiGen' feature that will generate synthetic data for realistic simulations and testing." -- ChatGPT), then probably that feature is too complicated to use. 
+
+At the end of the title, you should list 1 to 3 langauges with that feature in mind so people may look up more information on the internet.
+
 #### Language
 Use algol-like(C, Rust, Java, JavaScript) syntax when describing a feature, unless you have a better reason for using another syntax.
+
+## List of features
+
+- AST-based macro in a homoiconic and dynamically-typed language -- LISP
