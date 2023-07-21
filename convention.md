@@ -12,6 +12,8 @@ Each feature is assigned a unique number, for the ease of indexing.
 
 For each feature, write some keywords on how does it benefit the programmer who is using this feature. Also, write some keywords on how it will become a draw back.
 
+Each feature may list a number of related feature id.
+
 #### Language
 Use algol-like(C, Rust, Java, JavaScript) syntax when describing a feature, unless you have a better reason for using another syntax.
 
