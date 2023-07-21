@@ -25,5 +25,5 @@
 #### 6. A syntax sugar for structuring [cooperative](https://en.wikipedia.org/wiki/Cooperative_multitasking) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code modularly -- [Lua](https://www.lua.org/) [coroutine](https://www.lua.org/pil/9.1.html)
   - Pros: Readablility
 
-#### 7. A syntax sugar for function call makes allows chaining function calls easy -- [Nim](https://nim-lang.org/) [UFCS](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
+#### 7. A syntax sugar for function call that makes chaining function calls easy -- [Nim](https://nim-lang.org/) [UFCS](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Pros: Readablility
