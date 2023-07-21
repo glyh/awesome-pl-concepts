@@ -7,7 +7,7 @@ The reason I can't just look for papers are:
 1. Papers are too long, it's a waste of time to read for engineers that just want to get thing done.
 2. Some languages are designed by non-academic people, they don't have the motivation to document it.
 
-For submission convention, see [here](https://github.com/glyh/nontrivial-PL-features/blob/main/convention.md)
+For submission convention, see [here](https://github.com/glyh/nontrivial-PL-features/blob/main/convention.md).
 
 ## List of features
 
