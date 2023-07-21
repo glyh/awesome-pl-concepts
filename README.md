@@ -14,3 +14,6 @@
   - Pros: 
     - Eliminate the need of generics: generics are just compile time evaluated function from types to types
   - Cons: Compilation speed
+
+4. A structural way for obtain data from complicated [data structures](https://en.wikipedia.org/wiki/Data_structure) -- [Haskell](https://www.haskell.org/) [pattern matching](https://www.haskell.org/tutorial/patterns.html)
+  - Pros: Clarity, Optimizabililty
