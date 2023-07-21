@@ -9,7 +9,7 @@
   - Cons: Debuggablility, Readablility, Performance Predictablity
 
 #### Hygienic Macros
-  - Description: Lisp macros that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope) -- 
+  - Description: Lisp macros that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope)
   - Implementation: [Scheme](https://www.scheme.com/) [Hygienic macro](https://docs.scheme.org/guide/macros/)
   - Related: [Lisp Macros](1https://github.com/glyh/nontrivial-PL-features#lisp-macros)
   - Pros: Debuggablility 
