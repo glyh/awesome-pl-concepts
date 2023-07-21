@@ -22,5 +22,5 @@
   - Pros: Readability
   - Cons: Uncontrolable
 
-#### 6. A syntax sugar for structuring [cooperative](https://en.wikipedia.org/wiki/Cooperative_multitasking) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code -- [Lua](https://www.lua.org/) [coroutine](https://www.lua.org/pil/9.1.html)
+#### 6. A syntax sugar for structuring [cooperative](https://en.wikipedia.org/wiki/Cooperative_multitasking) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code modularly -- [Lua](https://www.lua.org/) [coroutine](https://www.lua.org/pil/9.1.html)
   - Pros: Readablility
