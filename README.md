@@ -37,7 +37,15 @@
   - Implementation: [Lua](https://www.lua.org/) [coroutine](https://www.lua.org/pil/9.1.html)
   - Pros: Readablility
 
-#### UFCS
+#### Universal Function Call Syntax
   - Description: A syntax sugar for function call that makes chaining function calls easy 
   - Implementation: [Nim](https://nim-lang.org/) [UFCS](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Pros: Readablility
+
+#### Lazy Evaluation
+  - Description: any portion of the code is evaluated only when needed 
+  - Implementation: [Haskell](https://www.haskell.org/) [lazy evaluation](https://wiki.haskell.org/Lazy_evaluation)
+  - Pros: 
+    - Easy to implement infinite data structures
+    - Potential performance boost by not evaluating unnecessary code
+  - Cons: Undebuggable
