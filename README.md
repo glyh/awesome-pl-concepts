@@ -67,3 +67,15 @@
   - Implementation: [Java](https://www.java.com/) [green threads](https://en.wikipedia.org/wiki/Green_thread)
   - Pros: 
     - potential performance boost by not wasting time on OS context switch.
+
+#### Caching with Reactive Invalidation
+  - Description: Caching the result of function, invalidating the data reactively when the cache are potentially outdated.
+  - Implementation: [Skip](http://skiplang.com/docs/tutorial.html) [Caching with reactive invalidation](http://skiplang.com/)
+  - Pros:
+    - User doesn't have to invalidate cache on their own
+
+#### Row Polymorphism
+  - Description: A polymorphism that dispatch on concerned record fields and their type.
+  - Implementation: [OCaml](https://ocaml.org/) [row polymorphism](https://www.cl.cam.ac.uk/teaching/1415/L28/rows.pdf)
+  - Pros: 
+    - Flexibility compared to subtyping
