@@ -62,3 +62,8 @@
   - Pros: Developer-friendliness
   - Cons: Performance
 
+#### Green Threads
+  - Description: An abstraction that allow easily writing [preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code, without actually using OS thread
+  - Implementation: [Java](https://www.java.com/) [green threads](https://en.wikipedia.org/wiki/Green_thread)
+  - Pros: 
+    - potential performance boost by not wasting time on OS context switch.
