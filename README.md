@@ -1,4 +1,4 @@
-[Rationale](https://github.com/glyh/nontrivial-PL-features/blob/main/rationale.md) [Convention](https://github.com/glyh/nontrivial-PL-features/blob/main/convention.md)
+[Rationale](https://github.com/glyh/nontrivial-PL-features/blob/main/rationale.md) [Convention](https://github.com/glyh/nontrivial-PL-features/blob/main/convention.md) [Contributing](https://github.com/glyh/nontrivial-PL-features/blob/main/contributing.md)
 
 ## List of features
 
