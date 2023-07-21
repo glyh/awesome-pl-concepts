@@ -17,9 +17,11 @@ At the end of the title, you should list 1 to 3 langauges with that feature in m
 
 When using non-trivial terms, please attach some links that may explain it. Wikipedia is good enough. Some well-known terms can be leave as is. For example AST, dynamically-typed, etc.
 
+Each feature is assigned a unique number, for the ease of indexing.
+
 #### Language
 Use algol-like(C, Rust, Java, JavaScript) syntax when describing a feature, unless you have a better reason for using another syntax.
 
 ## List of features
 
-- AST-based code generation in a [homoiconic](https://en.wikipedia.org/wiki/Homoiconicity) and dynamically-typed language -- [Lisp](https://lisp-lang.org/) macros
+1. AST-based code generation in a [homoiconic](https://en.wikipedia.org/wiki/Homoiconicity) and dynamically-typed language -- [Lisp](https://lisp-lang.org/) [macros](https://lispcookbook.github.io/cl-cookbook/macros.html)
