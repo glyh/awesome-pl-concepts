@@ -110,7 +110,7 @@
   - Implementation: [Erlang](https://www.erlang.org/) [concurrent programming](https://www.erlang.org/doc/getting_started/conc_prog.html)
 
 #### Ownership
-  - Description: A system that helps compiler decide when to free [heap-allocated memory](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) statically.
+  - Description: A system that helps compiler decide when to free [heap-allocated memory](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) statically by annotating the ownership of heap allocated variables to entities in the program.
   - Implementation: [Rust](https://www.rust-lang.org/) [ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
 
 #### Pattern matching 
