@@ -34,6 +34,8 @@
 #### Effect System
   - Description: A system similar to type system, but tracks side effects instead of type of the value.
   - Implementation: [Koka](https://koka-lang.github.io/koka/doc/index.html) [effect system](https://en.wikipedia.org/wiki/Effect_system)
+  - Pros: Safety, Debuggablility
+  - Cons: Verbosity
   - Topic: Type
 
 #### Fragment-based Code Distribution
