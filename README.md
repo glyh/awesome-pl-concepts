@@ -30,6 +30,14 @@
   - Description: A system similar to type system, but tracks side effects instead of type of the value.
   - Implementation: [Koka](https://koka-lang.github.io/koka/doc/index.html) [effect system](https://en.wikipedia.org/wiki/Effect_system)
 
+#### Fragment-based Code Distribution
+  - Description: A compiler infrastructure that identify codes fragment by its hash.
+  - Implementaion: [Haskell](https://www.haskell.org/) [fragnix](https://github.com/fragnix/fragnix), [Unison](https://www.unison-lang.org/) [hash identified AST](https://www.unison-lang.org/learn/tour/_big-technical-idea/)
+  - Pros: 
+    - [No builds](https://www.unison-lang.org/learn/tour/_big-technical-idea/#no-builds)
+    - [No dependency conflicts](https://www.unison-lang.org/learn/tour/_big-technical-idea/#no-dependency-conflicts)
+    - [Typed, durable storage](https://www.unison-lang.org/learn/tour/_big-technical-idea/#typed-durable-storage)
+
 #### [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
   - Description: A system that free unused [heap-allocated](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) memory in [runtime](https://en.wikipedia.org/wiki/Runtime_system)
   - Implementation: [Common Lisp](https://lisp-lang.org/) garbage collector
