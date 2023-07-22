@@ -26,6 +26,8 @@
 
 - Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing)
 
+- Property: [Referential Transparency](#referential-transparency)
+
 ## List of features
 
 #### Actor Model
@@ -129,6 +131,9 @@
 #### Pattern matching 
   - Description: A structural way for obtain data from complicated [data structures](https://en.wikipedia.org/wiki/Data_structure).
   - Implementation: [Haskell](https://www.haskell.org/) [pattern matching](https://www.haskell.org/tutorial/patterns.html)
+
+#### [Referential Transparency](https://en.wikipedia.org/wiki/Referential_transparency)
+  - Description: A property for a function where: 1. returns the same for identical arguments; 2. has no other side effects.
 
 #### Row Polymorphism
   - Description: A polymorphism that dispatch on concerned record fields and their type.
