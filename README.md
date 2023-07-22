@@ -38,7 +38,7 @@
   - Videos: [Fireship: The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE&t=344s)
 
 #### Automatic Broadcast Implementation
-  - Description: Given a definition `f: a -> b` and a functor `M`, automatic implement `f': M a -> M b`.
+  - Description: Given a definition `f: a -> b` and a functor `M`, `f: M a -> M b` is implemented automatically.
   - Implementation: [Chapel](https://chapel-lang.org/) 
   - Articles: [Hillel Wayne - Microfeatures I'd like to see in more languages](https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/)
 
