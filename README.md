@@ -28,7 +28,7 @@
 
 #### Effect System
   - Description: A system similar to type system, but tracks side effects instead of type of the value.
-  - Implementation: (koka)[https://koka-lang.github.io/koka/doc/index.html] [effect system](https://en.wikipedia.org/wiki/Effect_system)
+  - Implementation: [Koka](https://koka-lang.github.io/koka/doc/index.html) [effect system](https://en.wikipedia.org/wiki/Effect_system)
 
 #### Garbage Collection
   - Description: A system that free unused [heap-allocated](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) memory in [runtime](https://en.wikipedia.org/wiki/Runtime_system)
