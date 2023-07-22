@@ -1,4 +1,4 @@
-[Rationale](https://github.com/glyh/PL-features/blob/main/rationale.md) [Convention](https://github.com/glyh/PL-features/blob/main/convention.md) [Contributing](https://github.com/glyh/PL-features/blob/main/contributing.md)
+| [Rationale](https://github.com/glyh/PL-features/blob/main/rationale.md) | [Convention](https://github.com/glyh/PL-features/blob/main/convention.md) | [Contributing](https://github.com/glyh/PL-features/blob/main/contributing.md) |
 
 ## By topic
 
@@ -10,7 +10,7 @@
 
 - Dependency: [Fragment Based Code Distribution](#fragment-based-code-distribution)
 
-- Evaluation: [Comptime](#comptime), [Lazy Evaluation](#lazy-evaluation)
+- Evaluation: [Compile-time Code Evaluation](#comptime), [Lazy Evaluation](#lazy-evaluation)
 
 - Mutitasking: [Async/await](#asyncawait), [Coroutine](#coroutine), [Green Threads](#green-threads), [Symmetric Interaction Calculus](#symmetric-interaction-calculus) 
 
@@ -46,11 +46,11 @@
     - User doesn't have to invalidate cache on their own
   - Topic: Caching
 
-#### Comptime
-  - Description: Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time) and compile-time [duck-typing](https://en.wikipedia.org/wiki/Duck_typing).
+#### Compile-time Code Evaluation
+  - Description: Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time).
   - Implementation: [Zig](https://ziglang.org/) [comptime](https://ziglang.org/documentation/master/#comptime)
   - Pros: 
-    - Provides generics: generics are just compile time evaluated function from types to types
+    - Provides generics: generics are just compile time evaluated function from types to types.(this requires a tailored type system)
   - Cons: Compilation speed
   - Topic: Evaluation
 
