@@ -8,6 +8,7 @@
   - Pros: Readability
   - Cons: Uncontrolable
   - Topic: Multitasking
+  - Videos: [Fireship:The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE&t=344s)
 
 #### Caching with Reactive Invalidation
   - Description: Caching the result of function, invalidating the data reactively when the cache are potentially outdated.
@@ -46,6 +47,7 @@
     - [No dependency conflicts](https://www.unison-lang.org/learn/tour/_big-technical-idea/#no-dependency-conflicts)
     - [Typed, durable storage](https://www.unison-lang.org/learn/tour/_big-technical-idea/#typed-durable-storage)
   - Topic: Dependency
+  - Articles: [Big Technical Idea on Unison](https://www.unison-lang.org/learn/tour/_big-technical-idea/)
 
 #### Formal Methods
   - Description: A series of techiques that helps proving the behavior of the program
