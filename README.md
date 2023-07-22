@@ -1,4 +1,4 @@
-[Rationale](https://github.com/glyh/nontrivial-PL-features/blob/main/rationale.md) [Convention](https://github.com/glyh/nontrivial-PL-features/blob/main/convention.md) [Contributing](https://github.com/glyh/nontrivial-PL-features/blob/main/contributing.md)
+[Rationale](https://github.com/glyh/PL-features/blob/main/rationale.md) [Convention](https://github.com/glyh/PL-features/blob/main/convention.md) [Contributing](https://github.com/glyh/PL-features/blob/main/contributing.md)
 
 ## List of features
 
@@ -12,7 +12,7 @@
 #### Caching with Reactive Invalidation
   - Description: Caching the result of function, invalidating the data reactively when the cache are potentially outdated.
   - Implementation: [Skip](http://skiplang.com/docs/tutorial.html) [Caching with reactive invalidation](http://skiplang.com/)
-  - Requires: an [effect system](https://github.com/glyh/nontrivial-PL-features#effect-system)
+  - Requires: an [effect system](https://github.com/glyh/PL-features#effect-system)
   - Pros:
     - User doesn't have to invalidate cache on their own
   - Topic: Caching
@@ -76,7 +76,7 @@
 #### Hygienic Macros
   - Description: Lisp macros that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope).
   - Implementation: [Scheme](https://www.scheme.com/) [Hygienic macro](https://docs.scheme.org/guide/macros/)
-  - Based-on: [Lisp Macros](https://github.com/glyh/nontrivial-PL-features#lisp-macros)
+  - Based-on: [Lisp Macros](https://github.com/glyh/PL-features#lisp-macros)
   - Pros: Debuggablility 
   - Topic: Code Generation
 

@@ -1,7 +1,7 @@
 ## Convention
 Languages looks different from one to another. While there're some academically approved ways to represent some concepts, some of them are not formalized. Here we decide to write some convention on the description of the feature so they are easier to read and reason about.
 
-#### How trivial is trivial? 
+#### <del>How trivial is trivial? </del> Every feature is accepted
 
 We only accept features that is not wildly accepted by languages existing on the market up till 2022. It's true that langauges are evolving all the time, and some features may become trivial in the future. To keep everything simple, we decide to leave things as is.  
 
