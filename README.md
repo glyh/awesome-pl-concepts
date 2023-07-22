@@ -2,7 +2,7 @@
 
 ## List of features
 
-#### Async-await
+#### [Async/await](https://en.wikipedia.org/wiki/Async/await)
   - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial.
   - Implementation: [Javascript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   - Pros: Readability
