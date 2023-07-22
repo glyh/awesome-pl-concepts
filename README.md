@@ -4,6 +4,8 @@
 
 #### Actor Model
 
+#### Algebraic Data Type
+
 #### [Async/await](https://en.wikipedia.org/wiki/Async/await)
   - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial.
   - Implementation: [Javascript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
@@ -71,6 +73,8 @@
   - Cons: Performance
   - Topic: Memory Management
 
+#### Generalized Algebraic Data Type
+
 #### [Gradual Typing](https://en.wikipedia.org/wiki/Gradual_typing)
   - Description: A type system that checks some expresions/variables at compile time while leaving others to the runtime type checker.
   - Implementation: [Typescript](https://www.typescriptlang.org/)'s [type system](https://basarat.gitbook.io/typescript/type-system)
@@ -131,6 +135,10 @@
   - Pros: 
     - Flexibility compared to subtyping
   - Topic: Polymorphism
+  - Articles: 
+    - [Jadon Fowler: Row Polymorphism without the Jargon](https://jadon.io/blog/row-polymorphism/)
+    - [Stackoverflow: What are row types? Are they algebraic data types?](https://stackoverflow.com/questions/48092739/what-are-row-types-are-they-algebraic-data-types)
+  - Paper: [Objective ML: An effective object-oriented extension to ML](https://caml.inria.fr/pub/papers/remy_vouillon-objective_ml-tapos98.pdf)
 
 #### Symmetric Interaction Calculus
   - Description: A calculus similar to [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus), that can be implement concurrently due to its support for projection and duplication.
