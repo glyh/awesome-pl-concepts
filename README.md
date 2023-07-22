@@ -172,6 +172,7 @@
   - Implementation: [OCaml](https://ocaml.org/) [row polymorphism](https://www.cl.cam.ac.uk/teaching/1415/L28/rows.pdf)
   - Pros: 
     - Flexibility compared to subtyping
+  - Related: [Type Constraints](#type-constraints)
   - Topic: Polymorphism
   - Articles: 
     - [Jadon Fowler - Row Polymorphism without the Jargon](https://jadon.io/blog/row-polymorphism/)
