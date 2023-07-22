@@ -4,7 +4,7 @@
 
 - Caching: [Caching with Reactive Invalidation](#caching-with-reactive-invalidation) 
 
-- Calculus: [Dot Calculus](#dot-calculus), [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Term Rewriting](#term-rewriting)
+- Calculus: [Dot Calculus](#dot-calculus), [Lambda Calculus](#lambda-calculus), [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Term Rewriting](#term-rewriting), [Turing Machine](#turing-machine)
 
 - Code Generation: [Hygienic Macros](#hygienic-macros), [Lisp Macros](#lisp-macros)
 
@@ -107,6 +107,8 @@
   - Description: [Lisp macros](#lisp-macros) that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope).
   - Implementation: [Scheme](https://www.scheme.com/) [Hygienic macro](https://docs.scheme.org/guide/macros/)
 
+### Lambda Calculus
+
 #### Lazy Evaluation
   - Description: Any portion of the code is evaluated only when needed.
   - Implementation: [Haskell](https://www.haskell.org/) [lazy evaluation](https://wiki.haskell.org/Lazy_evaluation)
@@ -150,6 +152,8 @@
 
 #### Type Constraints
   - Implementation: [Haskell](https://www.haskell.org/) [typeclass](https://www.haskell.org/tutorial/classes.html), [Rust](https://www.rust-lang.org/) [trait](https://doc.rust-lang.org/book/ch10-02-traits.html)
+
+### Turing Machine
 
 #### [Universal Function Call Syntax](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Description: A syntax sugar for function call that makes chaining function calls easy.
