@@ -128,6 +128,8 @@
     - [Victor Maia: The Symmetric Interaction Calculus](https://medium.com/@maiavictor/the-abstract-calculus-fe8c46bcf39c)
     - [XXIIVV: interaction nets](https://wiki.xxiivv.com/site/interaction_nets.html)
     - [Zicklag: Interaction Nets, Combinators, and Calculus](https://zicklag.github.io/blog/interaction-nets-combinators-calculus/)
+  - Papers:
+    - [Interaction nets](https://dl.acm.org/doi/10.1145/96709.96718)
 
 #### [Universal Function Call Syntax](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Description: A syntax sugar for function call that makes chaining function calls easy.
