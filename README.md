@@ -2,49 +2,27 @@
 
 ## By topic
 
-#### Caching
+- Caching: [Caching with Reactive Invalidation](#caching-with-reactive-invalidation) 
 
-[Caching with Reactive Invalidation](#caching-with-reactive-invalidation) 
+- Calculus: [Symmetric Interaction Calculus](#symmetric-interaction-calculus) [Term Rewriting](#term-rewriting)
 
-#### Calculus
+- Code Generation: [Hygienic Macros](#hygienic-macros) [Lisp Macros](#lisp-macros)
 
-[Symmetric Interaction Calculus](#symmetric-interaction-calculus) [Term Rewriting](#term-rewriting)
+- Dependency: [Fragment Based Code Distribution](#fragment-based-code-distribution)
 
-#### Code Generation
+- Evaluation: [Comptime](#comptime) [Lazy Evaluation](#lazy-evaluation)
 
-[Hygienic Macros](#hygienic-macros) [Lisp Macros](#lisp-macros)
+- Mutitasking: [Async/await](#asyncawait) [Coroutine](#coroutine) [Green Threads](#green-threads) [Symmetric Interaction Calculus](#symmetric-interaction-calculus) 
 
-#### Dependency
+- Paradigm: [Functional Programming](#functional-programming) [Logic Programming](#logic-programming) [Message-Passing](#message-passing)
 
-[Fragment Based Code Distribution](#fragment-based-code-distribution)
+- Polymorphism: [Row Polymorphism](#row-polymorphism)
 
-#### Evaluation
+- Memory Management: [Garbage Collection](#garbage-collection) [Ownership](#ownership)
 
-[Comptime](#comptime) [Lazy Evaluation](#lazy-evaluation)
+- Syntax Sugar: [Pattern matching](#pattern-matching) [Universal Function Call Syntax](#universal-function-call-syntax)
 
-#### Mutitasking
-
-[Async/await](#asyncawait) [Coroutine](#coroutine) [Green Threads](#green-threads) [Symmetric Interaction Calculus](#symmetric-interaction-calculus) 
-
-#### Paradigm
-
-[Functional Programming](#functional-programming) [Logic Programming](#logic-programming) [Message-Passing](#message-passing)
-
-#### Polymorphism
-
-[Row Polymorphism](#row-polymorphism)
-
-#### Memory Management
-
-[Garbage Collection](#garbage-collection) [Ownership](#ownership)
-
-#### Syntax Sugar
-
-[Pattern matching](#pattern-matching) [Universal Function Call Syntax](#universal-function-call-syntax)
-
-#### Type
-
-[Dependent Type](#dependent-type) [Effect System](#dependent-type) [Gradual Typing](#gradual-typing)
+- Type: [Dependent Type](#dependent-type) [Effect System](#dependent-type) [Gradual Typing](#gradual-typing)
 
 ## List of features
 
