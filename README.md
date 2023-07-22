@@ -14,7 +14,9 @@
 
 - Mutitasking: [Async/await](#asyncawait), [Coroutine](#coroutine), [Green Threads](#green-threads), [Symmetric Interaction Calculus](#symmetric-interaction-calculus) 
 
-- Paradigm: [Functional Programming](#functional-programming), [Logic Programming](#logic-programming), [Message-Passing](#message-passing)
+- Paradigm: [Functional Programming](#functional-programming), [Logic Programming](#logic-programming)
+
+- Pattern: [Message Passing](#message-passing), [Type Constraints](#type-constraints)
 
 - Polymorphism: [Row Polymorphism](#row-polymorphism)
 
@@ -73,7 +75,7 @@
   - Pros: Safety, Debuggablility
   - Cons: Verbosity
   - Topic: Type
-  - Articles: [Stephen Diehl: Exotic Programming Ideas: Part 3 (Effect Systems)](https://www.stephendiehl.com/posts/exotic03.html)
+  - Articles: [Stephen Diehl - Exotic Programming Ideas: Part 3 (Effect Systems)](https://www.stephendiehl.com/posts/exotic03.html)
 
 #### Fragment-based Code Distribution
   - Description: A compiler infrastructure that identify codes fragment by its hash.
@@ -108,6 +110,8 @@
   - Pros: Flexibility
   - Cons: Safety
   - Topic: Type
+  - Articles:
+    - [Vlad Balin - TypeScript: Static or Dynamic? The war is over.](https://itnext.io/typescript-static-or-dynamic-64bceb50b93e)
 
 #### [Green Threads](https://en.wikipedia.org/wiki/Green_thread)
   - Description: An abstraction that allow easily writing [preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code, without actually using OS thread
@@ -142,6 +146,7 @@
 #### Logic Programming
 
 #### Message Passing
+  - Implementation: [Erlang](https://www.erlang.org/) [concurrent programming](https://www.erlang.org/doc/getting_started/conc_prog.html)
 
 #### Ownership
   - Description: A system that helps compiler decide when to free [heap-allocated memory](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) statically.
@@ -163,8 +168,8 @@
     - Flexibility compared to subtyping
   - Topic: Polymorphism
   - Articles: 
-    - [Jadon Fowler: Row Polymorphism without the Jargon](https://jadon.io/blog/row-polymorphism/)
-    - [Stackoverflow: What are row types? Are they algebraic data types?](https://stackoverflow.com/questions/48092739/what-are-row-types-are-they-algebraic-data-types)
+    - [Jadon Fowler - Row Polymorphism without the Jargon](https://jadon.io/blog/row-polymorphism/)
+    - [Stackoverflow - What are row types? Are they algebraic data types?](https://stackoverflow.com/questions/48092739/what-are-row-types-are-they-algebraic-data-types)
   - Paper: [Objective ML: An effective object-oriented extension to ML](https://caml.inria.fr/pub/papers/remy_vouillon-objective_ml-tapos98.pdf)
 
 #### Symmetric Interaction Calculus
@@ -173,13 +178,16 @@
   - Pros: Parallization for free
   - Topic: Multitasking, Calculus
   - Articles: 
-    - [Victor Maia: The Symmetric Interaction Calculus](https://medium.com/@maiavictor/the-abstract-calculus-fe8c46bcf39c)
-    - [XXIIVV: interaction nets](https://wiki.xxiivv.com/site/interaction_nets.html)
-    - [Zicklag: Interaction Nets, Combinators, and Calculus](https://zicklag.github.io/blog/interaction-nets-combinators-calculus/)
+    - [Victor Maia - The Symmetric Interaction Calculus](https://medium.com/@maiavictor/the-abstract-calculus-fe8c46bcf39c)
+    - [XXIIVV - interaction nets](https://wiki.xxiivv.com/site/interaction_nets.html)
+    - [Zicklag - Interaction Nets, Combinators, and Calculus](https://zicklag.github.io/blog/interaction-nets-combinators-calculus/)
   - Papers:
     - [Interaction nets](https://dl.acm.org/doi/10.1145/96709.96718)
 
 #### Term Rewriting
+
+#### Type Constraints
+  - Implementation: [Haskell](https://www.haskell.org/) [typeclass](https://www.haskell.org/tutorial/classes.html)
 
 #### [Universal Function Call Syntax](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Description: A syntax sugar for function call that makes chaining function calls easy.
