@@ -65,6 +65,7 @@
 
 #### [Gradual Typing](https://en.wikipedia.org/wiki/Gradual_typing)
   - Description: A type system that checks some expresions/variables at compile time while leaving others to the runtime type checker.
+  - Implementation: [Typescript](https://www.typescriptlang.org/)'s [type system](https://basarat.gitbook.io/typescript/type-system)
   - Pros: Flexibility
   - Cons: Safety
   - Topic: Type
