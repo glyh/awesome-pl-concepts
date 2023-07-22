@@ -63,6 +63,7 @@
 #### [Datalog](https://en.wikipedia.org/wiki/Datalog)
 
 #### Dependent Type
+  - Articles: [Hacker News - serokell.io - Dependent Haskell Is the Future (2018)](https://news.ycombinator.com/item?id=20712646)
 
 #### Dot Calculus
   - Articles: [Essense of Scala](https://www.scala-lang.org/blog/2016/02/03/essence-of-scala.html)
