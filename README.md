@@ -119,6 +119,16 @@
     - Flexibility compared to subtyping
   - Topic: Polymorphism
 
+#### Symmetric Interaction Calculus
+  - Description: A calculus similar to Lambda Calculus, that can be implement concurrently due to its support for projection and duplication.
+  - Implementation: [HVM](https://github.com/HigherOrderCO/HVM)
+  - Pros: Parallization for free
+  - Topic: Multitasking, Calculus
+  - Articles: 
+    - [Victor Maia: The Symmetric Interaction Calculus](https://medium.com/@maiavictor/the-abstract-calculus-fe8c46bcf39c)
+    - [XXIIVV: interaction nets](https://wiki.xxiivv.com/site/interaction_nets.html)
+    - [Zicklag: Interaction Nets, Combinators, and Calculus](https://zicklag.github.io/blog/interaction-nets-combinators-calculus/)
+
 #### [Universal Function Call Syntax](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Description: A syntax sugar for function call that makes chaining function calls easy.
   - Implementation: [Nim](https://nim-lang.org/) [UFCS](https://narimiran.github.io/nim-basics/#_calling_the_procedures), [Elixir](https://elixir-lang.org/) [pipe operator](https://elixir-lang.org/getting-started/enumerables-and-streams.html#the-pipe-operator), [Clojure](https://clojure.org/) [threading macro](https://clojure.org/guides/threading_macros)
