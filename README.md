@@ -62,13 +62,13 @@
   - Pros: Flexibility
   - Cons: Readability
 
-#### Coroutine 
+#### [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
   - Description: A syntax sugar for structuring [cooperative](https://en.wikipedia.org/wiki/Cooperative_multitasking) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code modularly.
   - Implementation: [Lua](https://www.lua.org/) [coroutine](https://www.lua.org/pil/9.1.html)
   - Pros: Readablility
   - Topic: Multitasking
 
-#### Datalog
+#### [Datalog](https://en.wikipedia.org/wiki/Datalog)
 
 #### Dependent Type
 
