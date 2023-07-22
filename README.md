@@ -11,6 +11,7 @@
 #### Caching with Reactive Invalidation
   - Description: Caching the result of function, invalidating the data reactively when the cache are potentially outdated.
   - Implementation: [Skip](http://skiplang.com/docs/tutorial.html) [Caching with reactive invalidation](http://skiplang.com/)
+  - Requires: an [effect system](https://github.com/glyh/nontrivial-PL-features#effect-system)
   - Pros:
     - User doesn't have to invalidate cache on their own
 
