@@ -85,6 +85,8 @@
 #### Generalized Update Synatx
   - Description: for any binary operator function `f : a -> a -> a`, we can rewrite `a = f a b` as `a f= b`
   - Implementation: [Noulith](https://github.com/betaveros/noulith/) [generalized update syntax](https://github.com/betaveros/noulith/)
+  - Articles: 
+    - [Hillel Wayne - Microfeatures I'd like to see in more languages](https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/)
 
 #### [Gradual Typing](https://en.wikipedia.org/wiki/Gradual_typing)
   - Description: A type system that checks some expresions/variables at compile time while leaving others to the runtime type checker.
