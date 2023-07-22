@@ -10,7 +10,7 @@
   - Pros: Readability
   - Cons: Uncontrolable
   - Topic: Multitasking
-  - Videos: [Fireship:The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE&t=344s)
+  - Videos: [Fireship: The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE&t=344s)
 
 #### Caching with Reactive Invalidation
   - Description: Caching the result of function, invalidating the data reactively when the cache are potentially outdated.
