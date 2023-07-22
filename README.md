@@ -4,7 +4,7 @@
 
 - Caching: [Caching with Reactive Invalidation](#caching-with-reactive-invalidation) 
 
-- Calculus: [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Term Rewriting](#term-rewriting), [Dot Calculus](#dot-calculus)
+- Calculus: [Dot Calculus](#dot-calculus), [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Term Rewriting](#term-rewriting)
 
 - Code Generation: [Hygienic Macros](#hygienic-macros), [Lisp Macros](#lisp-macros)
 
