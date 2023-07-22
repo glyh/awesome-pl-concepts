@@ -33,7 +33,7 @@
   - Topic: Multitasking
 
 #### Effect System
-  - Description: A system similar to type system, but tracks side effects instead of type of the value.
+  - Description: A system similar to type system, but tracks [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) instead of type of the value.
   - Implementation: [Koka](https://koka-lang.github.io/koka/doc/index.html) [effect system](https://en.wikipedia.org/wiki/Effect_system)
   - Pros: Safety, Debuggablility
   - Cons: Verbosity
