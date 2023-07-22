@@ -30,9 +30,9 @@
   - Description: A system similar to type system, but tracks side effects instead of type of the value.
   - Implementation: [Koka](https://koka-lang.github.io/koka/doc/index.html) [effect system](https://en.wikipedia.org/wiki/Effect_system)
 
-#### Garbage Collection
+#### [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
   - Description: A system that free unused [heap-allocated](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) memory in [runtime](https://en.wikipedia.org/wiki/Runtime_system)
-  - Implementation: [Common Lisp](https://lisp-lang.org/) [GC](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
+  - Implementation: [Common Lisp](https://lisp-lang.org/) garbage collector
   - Pros: Developer-friendliness
   - Cons: Performance
 
@@ -81,5 +81,5 @@
 
 #### [Universal Function Call Syntax](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Description: A syntax sugar for function call that makes chaining function calls easy.
-  - Implementation: [Nim](https://nim-lang.org/) [UFCS](https://narimiran.github.io/nim-basics/#_calling_the_procedures), [Elixir](https://elixir-lang.org/) [Pipe Operator](https://elixir-lang.org/getting-started/enumerables-and-streams.html#the-pipe-operator), [Clojure](https://clojure.org/) [Threading Macro](https://clojure.org/guides/threading_macros)
+  - Implementation: [Nim](https://nim-lang.org/) [UFCS](https://narimiran.github.io/nim-basics/#_calling_the_procedures), [Elixir](https://elixir-lang.org/) [pipe operator](https://elixir-lang.org/getting-started/enumerables-and-streams.html#the-pipe-operator), [Clojure](https://clojure.org/) [threading macro](https://clojure.org/guides/threading_macros)
   - Pros: Readablility
