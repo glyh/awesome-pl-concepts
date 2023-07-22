@@ -47,6 +47,12 @@
     - [Typed, durable storage](https://www.unison-lang.org/learn/tour/_big-technical-idea/#typed-durable-storage)
   - Topic: Dependency
 
+#### Formal Methods
+  - Description: A series of techiques that helps proving the behavior of the program
+  - Implementation: [Coq](https://coq.inria.fr/) [proof assitant](https://en.wikipedia.org/wiki/Proof_assistant)
+  - Pros: Safety, No runtime
+  - Cons: Verbosity
+
 #### [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
   - Description: A system that free unused [heap-allocated](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) memory in [runtime](https://en.wikipedia.org/wiki/Runtime_system)
   - Implementation: [Common Lisp](https://lisp-lang.org/) garbage collector
@@ -54,9 +60,15 @@
   - Cons: Performance
   - Topic: Memory Management
 
-#### Green Threads
+#### [Gradual Typing](https://en.wikipedia.org/wiki/Gradual_typing)
+  - Description: A type system that checks some expresions/variables at compile time while leaving others to the runtime type checker.
+  - Pros: Flexibility
+  - Cons: Safety
+  - Topic: Type
+
+#### [Green Threads](https://en.wikipedia.org/wiki/Green_thread)
   - Description: An abstraction that allow easily writing [preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code, without actually using OS thread
-  - Implementation: [Java](https://www.java.com/) [green threads](https://en.wikipedia.org/wiki/Green_thread)
+  - Implementation: [Java](https://www.java.com/) green threads
   - Pros: 
     - potential performance boost by not wasting time on OS context switch.
   - Topic: Multitasking
