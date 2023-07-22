@@ -4,7 +4,7 @@
 
 - Caching: [Caching with Reactive Invalidation](#caching-with-reactive-invalidation) 
 
-- Calculus: [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Term Rewriting](#term-rewriting)
+- Calculus: [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Term Rewriting](#term-rewriting), [Dot Calculus](#dot-calculus)
 
 - Code Generation: [Hygienic Macros](#hygienic-macros), [Lisp Macros](#lisp-macros)
 
@@ -63,6 +63,9 @@
 #### Datalog
 
 #### Dependent Type
+
+#### Dot Calculus
+  - Articles: [Essense of Scala](https://www.scala-lang.org/blog/2016/02/03/essence-of-scala.html)
 
 #### Effect System
   - Description: A system similar to type system, but tracks [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) instead of type of the value.
