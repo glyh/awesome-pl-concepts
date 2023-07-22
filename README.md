@@ -22,7 +22,7 @@
 
 - Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership)
 
-- Syntax Sugar: [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Synatx](#generalized-update-syntax)
+- Syntax Sugar: [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Synatx](#generalized-update-syntax), [Automatic Broadcast Implementation](#automatic-broadcast-implementation)
 
 - Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing)
 
@@ -36,6 +36,11 @@
   - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial.
   - Implementation: [Javascript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   - Videos: [Fireship: The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE&t=344s)
+
+#### Automatic Broadcast Implementation
+  - Description: Given a definition `f: a -> b` and a functor `M`, automatic implement `f': M a -> M b`.
+  - Implementation: [Chapel](https://chapel-lang.org/) 
+  - Articles: [Hillel Wayne - Microfeatures I'd like to see in more languages](https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/)
 
 #### Caching with Reactive Invalidation
   - Description: Caching the result of function, invalidating the data reactively when the cache are potentially outdated.
