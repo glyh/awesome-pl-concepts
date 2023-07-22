@@ -21,7 +21,7 @@
   - Description: Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time) and compile-time [duck-typing](https://en.wikipedia.org/wiki/Duck_typing).
   - Implementation: [Zig](https://ziglang.org/) [comptime](https://ziglang.org/documentation/master/#comptime)
   - Pros: 
-    - Eliminate the need of generics: generics are just compile time evaluated function from types to types
+    - Provides generics: generics are just compile time evaluated function from types to types
   - Cons: Compilation speed
   - Topic: Evaluation
 
