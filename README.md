@@ -22,7 +22,7 @@
 
 - Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership)
 
-- Syntax Sugar: [Universal Function Call Syntax](#universal-function-call-syntax)
+- Syntax Sugar: [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Synatx](#generalized-update-syntax)
 
 - Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing)
 
@@ -81,6 +81,10 @@
   - Implementation: [Common Lisp](https://lisp-lang.org/) garbage collector
 
 #### Generalized Algebraic Data Type
+
+#### Generalized Update Synatx
+  - Description: for any binary operator function `f : a -> a -> a`, we can rewrite `a = f a b` as `a f= b`
+  - Implementation: [Noulith](https://github.com/betaveros/noulith/) [generalized update syntax](https://github.com/betaveros/noulith/)
 
 #### [Gradual Typing](https://en.wikipedia.org/wiki/Gradual_typing)
   - Description: A type system that checks some expresions/variables at compile time while leaving others to the runtime type checker.
