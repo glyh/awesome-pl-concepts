@@ -120,7 +120,7 @@
   - Topic: Polymorphism
 
 #### Symmetric Interaction Calculus
-  - Description: A calculus similar to Lambda Calculus, that can be implement concurrently due to its support for projection and duplication.
+  - Description: A calculus similar to [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus), that can be implement concurrently due to its support for projection and duplication.
   - Implementation: [HVM](https://github.com/HigherOrderCO/HVM)
   - Pros: Parallization for free
   - Topic: Multitasking, Calculus
