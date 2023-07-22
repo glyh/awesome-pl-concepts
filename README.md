@@ -138,7 +138,7 @@
 #### [Referential Transparency](https://en.wikipedia.org/wiki/Referential_transparency)
   - Description: A property for a function where: 1. returns the same for identical arguments; 2. has no other side effects.
 
-#### Row Polymorphism
+#### [Row Polymorphism](https://en.wikipedia.org/wiki/Row_polymorphism)
   - Description: A polymorphism that dispatch on concerned record fields and their type.
   - Implementation: [OCaml](https://ocaml.org/) [row polymorphism](https://www.cl.cam.ac.uk/teaching/1415/L28/rows.pdf)
   - Articles: 
