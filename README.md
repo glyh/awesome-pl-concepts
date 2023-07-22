@@ -40,7 +40,6 @@
 #### Caching with Reactive Invalidation
   - Description: Caching the result of function, invalidating the data reactively when the cache are potentially outdated.
   - Implementation: [Skip](http://skiplang.com/docs/tutorial.html) [Caching with reactive invalidation](http://skiplang.com/)
-  - Requires: an [effect system](#effect-system)
 
 #### Compile-time Code Evaluation
   - Description: Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time).
@@ -94,9 +93,8 @@
   - Implementation: [Java](https://www.java.com/) green threads
 
 #### Hygienic Macros
-  - Description: Lisp macros that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope).
+  - Description: [Lisp macros](#lisp-macros) that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope).
   - Implementation: [Scheme](https://www.scheme.com/) [Hygienic macro](https://docs.scheme.org/guide/macros/)
-  - Based-on: [Lisp Macros](#lisp-macros)
 
 #### Lazy Evaluation
   - Description: Any portion of the code is evaluated only when needed.
@@ -122,7 +120,6 @@
 #### Row Polymorphism
   - Description: A polymorphism that dispatch on concerned record fields and their type.
   - Implementation: [OCaml](https://ocaml.org/) [row polymorphism](https://www.cl.cam.ac.uk/teaching/1415/L28/rows.pdf)
-  - Related: [Type Constraints](#type-constraints)
   - Articles: 
     - [Jadon Fowler - Row Polymorphism without the Jargon](https://jadon.io/blog/row-polymorphism/)
     - [Stackoverflow - What are row types? Are they algebraic data types?](https://stackoverflow.com/questions/48092739/what-are-row-types-are-they-algebraic-data-types)
