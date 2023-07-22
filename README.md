@@ -2,6 +2,8 @@
 
 ## List of features
 
+#### Actor Model
+
 #### [Async/await](https://en.wikipedia.org/wiki/Async/await)
   - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial.
   - Implementation: [Javascript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
@@ -32,6 +34,10 @@
   - Pros: Readablility
   - Topic: Multitasking
 
+#### Datalog
+
+#### Dependent Type
+
 #### Effect System
   - Description: A system similar to type system, but tracks [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) instead of type of the value.
   - Implementation: [Koka](https://koka-lang.github.io/koka/doc/index.html) [effect system](https://en.wikipedia.org/wiki/Effect_system)
@@ -55,6 +61,8 @@
   - Implementation: [Coq](https://coq.inria.fr/) [proof assitant](https://en.wikipedia.org/wiki/Proof_assistant)
   - Pros: Safety, No runtime
   - Cons: Verbosity
+
+#### Functional Programming
 
 #### [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
   - Description: A system that free unused [heap-allocated](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) memory in [runtime](https://en.wikipedia.org/wiki/Runtime_system)
@@ -100,6 +108,10 @@
   - Cons: Debuggablility, Readablility, Performance Predictablity
   - Topic: Code Generation
 
+#### Logic Programming
+
+#### Message Passing
+
 #### Ownership
   - Description: A system that helps compiler decide when to free [heap-allocated memory](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) statically.
   - Implementation: [Rust](https://www.rust-lang.org/) [Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
@@ -131,6 +143,8 @@
     - [Zicklag: Interaction Nets, Combinators, and Calculus](https://zicklag.github.io/blog/interaction-nets-combinators-calculus/)
   - Papers:
     - [Interaction nets](https://dl.acm.org/doi/10.1145/96709.96718)
+
+#### Term Rewriting
 
 #### [Universal Function Call Syntax](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Description: A syntax sugar for function call that makes chaining function calls easy.
