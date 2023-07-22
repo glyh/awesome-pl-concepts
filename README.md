@@ -22,7 +22,7 @@
 
 - Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership)
 
-- Syntax Sugar: [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Synatx](#generalized-update-syntax), [Automatic Broadcast Implementation](#automatic-broadcast-implementation)
+- Syntax Sugar: [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Automatic Broadcast Implementation](#automatic-broadcast-implementation)
 
 - Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing)
 
@@ -87,7 +87,7 @@
 
 #### Generalized Algebraic Data Type
 
-#### Generalized Update Synatx
+#### Generalized Update Syntax
   - Description: for any binary operator function `f : a -> a -> a`, we can rewrite `a = f a b` as `a f= b`
   - Implementation: [Noulith](https://github.com/betaveros/noulith/) [generalized update syntax](https://github.com/betaveros/noulith/)
   - Articles: 
