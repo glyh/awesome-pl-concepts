@@ -22,7 +22,7 @@
 
 - Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership)
 
-- Syntax Sugar: [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Automatic Broadcast Implementation](#automatic-broadcast-implementation)
+- Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax)
 
 - Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing)
 
@@ -39,7 +39,7 @@
 
 #### Automatic Broadcast Implementation
   - Description: Given a definition `f: a -> b` and a functor `M`, `f: M a -> M b` is implemented automatically.
-  - Implementation: [Chapel](https://chapel-lang.org/) 
+  - Implementation: [Chapel](https://chapel-lang.org/), [Matlab](https://www.mathworks.com/products/matlab.html) [array and matrix semantic](https://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html) (partial)
   - Articles: [Hillel Wayne - Microfeatures I'd like to see in more languages](https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/)
 
 #### Caching with Reactive Invalidation
