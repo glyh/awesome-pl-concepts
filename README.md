@@ -16,7 +16,7 @@
 
 - Paradigm: [Functional Programming](#functional-programming), [Logic Programming](#logic-programming)
 
-- Pattern: [Message Passing](#message-passing), [Type Constraints](#type-constraints)
+- Pattern: [Continuation Passing](#continuation-passing), [Message Passing](#message-passing), [Type Constraints](#type-constraints)
 
 - Polymorphism: [Row Polymorphism](#row-polymorphism)
 
@@ -55,6 +55,12 @@
     - Provides generics: generics are just compile time evaluated function from types to types.(this requires a tailored type system)
   - Cons: Compilation speed
   - Topic: Evaluation
+
+#### Continuation Passing
+  - Description: a pattern in which the state of an executing program may be captured and passing around, resume on demand.
+  - Implementation: [Scheme](https://www.scheme.com/) [continuation](https://cs.brown.edu/courses/cs173/2008/Manual/guide/Continuations.html)
+  - Pros: Flexibility
+  - Cons: Readability
 
 #### Coroutine 
   - Description: A syntax sugar for structuring [cooperative](https://en.wikipedia.org/wiki/Cooperative_multitasking) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code modularly.
