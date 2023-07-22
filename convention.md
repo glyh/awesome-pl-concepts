@@ -5,7 +5,7 @@ Languages looks different from one to another. While there're some academically 
 
 We only accept features that is not wildly accepted by languages existing on the market up till 2022. It's true that langauges are evolving all the time, and some features may become trivial in the future. To keep everything simple, we decide to leave things as is.  
 
-#### Format
+#### <del>Format</del> This part is not stable, please refer other features for reference
 The title of a feature should be within 30 words. If it's too long or your description doesn't precisely match what you mean, (e.g. "A 'SynthiGen' feature that will generate synthetic data for realistic simulations and testing." -- ChatGPT), then probably that feature is too complicated to use. 
 
 At the end of the title, you should list 1 to 3 langauges with that feature in mind so people may look up more information on the internet. For each language listed, attach the name of that feature in that langauge. That language is not necessarily the earliest one, but it's recommended to choose a widely adaptted one or the one that have this feature as a primary tool to solve problems.
