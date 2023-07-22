@@ -43,7 +43,7 @@
 
 #### Compile-time Code Evaluation
   - Description: Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time).
-  - Implementation: [Zig](https://ziglang.org/) [comptime](https://ziglang.org/documentation/master/#comptime)
+  - Implementation: [Zig](https://ziglang.org/) [comptime](https://ziglang.org/documentation/master/#comptime) [Konna](https://github.com/eashanhatti/konna) [2LTT](https://www.reddit.com/r/ProgrammingLanguages/comments/rpe65y/konna_my_programming_language/)
 
 #### [Continuation Passing](https://en.wikipedia.org/wiki/Continuation-passing_style)
   - Description: a pattern in which the state of an executing program may be captured and passing around, resume on demand.
