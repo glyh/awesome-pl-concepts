@@ -56,7 +56,7 @@
   - Cons: Compilation speed
   - Topic: Evaluation
 
-#### Continuation Passing
+#### [Continuation Passing](https://en.wikipedia.org/wiki/Continuation-passing_style)
   - Description: a pattern in which the state of an executing program may be captured and passing around, resume on demand.
   - Implementation: [Scheme](https://www.scheme.com/) [continuation](https://cs.brown.edu/courses/cs173/2008/Manual/guide/Continuations.html)
   - Pros: Flexibility
