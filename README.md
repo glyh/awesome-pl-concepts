@@ -24,7 +24,7 @@
 
 #### Mutitasking
 
-[Async/await](#asyncawait) [Coroutine](#coroutine) [Green Threads](#green-threads)
+[Async/await](#asyncawait) [Coroutine](#coroutine) [Green Threads](#green-threads) [Symmetric Interaction Calculus](#symmetric-interaction-calculus) 
 
 #### Paradigm
 
