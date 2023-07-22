@@ -39,7 +39,7 @@
 
 #### Universal Function Call Syntax
   - Description: A syntax sugar for function call that makes chaining function calls easy.
-  - Implementation: [Nim](https://nim-lang.org/) [UFCS](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
+  - Implementation: [Nim](https://nim-lang.org/) [UFCS](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax), [Elixir](https://elixir-lang.org/) [Pipe Operator](https://elixir-lang.org/getting-started/enumerables-and-streams.html#the-pipe-operator), [Clojure](https://clojure.org/) [Threading Macro](https://clojure.org/guides/threading_macros)
   - Pros: Readablility
 
 #### Lazy Evaluation
