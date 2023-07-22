@@ -48,7 +48,7 @@
 
 #### Compile-time Code Evaluation
   - Description: Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time).
-  - Implementation: [Zig](https://ziglang.org/) [comptime](https://ziglang.org/documentation/master/#comptime) [Konna](https://github.com/eashanhatti/konna) [2LTT](https://www.reddit.com/r/ProgrammingLanguages/comments/rpe65y/konna_my_programming_language/)
+  - Implementation: [Zig](https://ziglang.org/) [comptime](https://ziglang.org/documentation/master/#comptime), [Konna](https://github.com/eashanhatti/konna) [2LTT](https://www.reddit.com/r/ProgrammingLanguages/comments/rpe65y/konna_my_programming_language/)
 
 #### [Continuation Passing](https://en.wikipedia.org/wiki/Continuation-passing_style)
   - Description: a pattern in which the state of an executing program may be captured and passing around, resume on demand.
@@ -83,7 +83,7 @@
 
 #### [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
   - Description: A system that free unused [heap-allocated](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) memory in [runtime](https://en.wikipedia.org/wiki/Runtime_system)
-  - Implementation: [Common Lisp](https://lisp-lang.org/) garbage collector
+  - Implementation: [Common Lisp](https://lisp-lang.org/)
 
 #### Generalized Algebraic Data Type
 
@@ -95,7 +95,7 @@
 
 #### [Gradual Typing](https://en.wikipedia.org/wiki/Gradual_typing)
   - Description: A type system that checks some expresions/variables at compile time while leaving others to the runtime type checker.
-  - Implementation: [Typescript](https://www.typescriptlang.org/)'s [type system](https://basarat.gitbook.io/typescript/type-system)
+  - Implementation: [Typescript](https://www.typescriptlang.org/)
   - Articles:
     - [Vlad Balin - TypeScript: Static or Dynamic? The war is over.](https://itnext.io/typescript-static-or-dynamic-64bceb50b93e)
 
