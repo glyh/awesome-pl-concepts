@@ -1,5 +1,51 @@
 [Rationale](https://github.com/glyh/PL-features/blob/main/rationale.md) [Convention](https://github.com/glyh/PL-features/blob/main/convention.md) [Contributing](https://github.com/glyh/PL-features/blob/main/contributing.md)
 
+## By topic
+
+#### Caching
+
+[Caching with Reactive Invalidation](#caching-with-reactive-invalidation) 
+
+#### Calculus
+
+[Symmetric Interaction Calculus](#symmetric-interaction-calculus) [Term Rewriting](#term-rewriting)
+
+#### Code Generation
+
+[Hygienic Macros](#hygienic-macros) [Lisp Macros](#lisp-macros)
+
+#### Dependency
+
+[Fragment Based Code Distribution](#fragment-based-code-distribution)
+
+#### Evaluation
+
+[Comptime](#comptime) [Lazy Evaluation](#lazy-evaluation)
+
+#### Mutitasking
+
+[Async/await](#asyncawait) [Coroutine](#coroutine) [Green Threads](#green-threads)
+
+#### Paradigm
+
+[Functional Programming](#functional-programming) [Logic Programming](#logic-programming) [Message-Passing](#message-passing)
+
+#### Polymorphism
+
+[Row Polymorphism](#row-polymorphism)
+
+#### Memory Management
+
+[Garbage Collection](#garbage-collection) [Ownership](#ownership)
+
+#### Syntax Sugar
+
+[Pattern matching](#pattern-matching) [Universal Function Call Syntax](#universal-function-call-syntax)
+
+#### Type
+
+[Dependent Type](#dependent-type) [Effect System](#dependent-type) [Gradual Typing](#gradual-typing)
+
 ## List of features
 
 #### Actor Model
