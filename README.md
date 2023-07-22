@@ -38,6 +38,7 @@
   - Pros: Safety, Debuggablility
   - Cons: Verbosity
   - Topic: Type
+  - Articles: [Stephen Diehl: Exotic Programming Ideas: Part 3 (Effect Systems)](https://www.stephendiehl.com/posts/exotic03.html)
 
 #### Fragment-based Code Distribution
   - Description: A compiler infrastructure that identify codes fragment by its hash.
