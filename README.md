@@ -144,7 +144,7 @@
 
 #### First Class Module
   - Description: Modules are treated as structs
-  - Implementation: [1ML](https://github.com/rossberg/1ml), [Zig](https://ziglang.org)
+  - Implementation: [1ML](https://github.com/rossberg/1ml), [Zig](https://ziglang.org), [Ocaml](https://v2.ocaml.org/) [First class module](https://v2.ocaml.org/manual/firstclassmodules.html)
   - Articles: [Stackoverflow - What (exactly) are "First Class" modules?](https://stackoverflow.com/questions/56575195/what-exactly-are-first-class-modules)
 
 #### First Class Regex
