@@ -12,7 +12,7 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 
 - Dependency: [Fragment Based Code Distribution](#fragment-based-code-distribution)
 
-- Design Pattern: [Async/await](#asyncawait), [Continuation Passing](#continuation-passing), [Message Passing](#message-passing), [Type Constraints](#type-constraints)
+- Design Pattern: [Async/await](#asyncawait), [Continuation Passing](#continuation-passing), [Message Passing](#message-passing), [Trait](#trait)
 
 - Pattern Matching: [Active Pattern](#active-pattern), [Pattern matching](#pattern-matching), [View Pattern](#view-pattern)
 
@@ -34,7 +34,7 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 
 - Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Chained Try](#chained-try), [For Comprehension](#for-comphrehension), [Generalized Update Syntax](#generalized-update-syntax), [Universal Function Call Syntax](#universal-function-call-syntax)
 
-- Type: [Algebraic Data Type](#algebraic-data-type), [Capability Safety](#capability-safety), [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough), [Reference Capabilities](#reference-capabilities)
+- Type: [Algebraic Data Type](#algebraic-data-type), [Capability Safety](#capability-safety), [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough), [Reference Capabilities](#reference-capabilities), [Class Invariant](#class-invariant)
 
 ## List of features
 
@@ -119,6 +119,10 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 
   ```
   - Articles: [BoppreH - a Reply in If-fail-else Construct](https://www.reddit.com/r/ProgrammingLanguages/comments/110bx5e/comment/j88xu52)
+
+### Class Invariant
+  - Constraints of specific types that gets ran across function calls to ensure the data is in correct shape.
+  - Implementation [Ada](https://ada-lang.io/) [type invariant](http://www.ada-auth.org/standards/12rat/html/Rat12-2-4.html)
 
 ### Compile-time Code Evaluation
   - Description: Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time).
@@ -273,7 +277,8 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 
 ### Term Rewriting
 
-### Type Constraints
+### Trait
+  - Description: An interface that allows writing type safe code on different types.
   - Implementation: [Haskell](https://www.haskell.org/) [typeclass](https://www.haskell.org/tutorial/classes.html), [Rust](https://www.rust-lang.org/) [trait](https://doc.rust-lang.org/book/ch10-02-traits.html)
 
 ### Turing Machine
