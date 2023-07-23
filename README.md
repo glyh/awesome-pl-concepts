@@ -10,25 +10,27 @@
 
 - Dependency: [Fragment Based Code Distribution](#fragment-based-code-distribution)
 
+- Design Pattern: [Async/await](#asyncawait), [Continuation Passing](#continuation-passing), [Message Passing](#message-passing), [Type Constraints](#type-constraints), [Pattern matching](#pattern-matching)
+
 - Evaluation: [Compile-time Code Evaluation](#comptime), [Lazy Evaluation](#lazy-evaluation)
+
+- First Class: [First Class Regex](#first-class-regex), [First Class Type](#first-class-type) 
+
+- Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership)
 
 - Mutitasking: [Async/await](#asyncawait), [Coroutine](#coroutine), [Green Threads](#green-threads), [Symmetric Interaction Calculus](#symmetric-interaction-calculus) 
 
 - Paradigm: [Functional Programming](#functional-programming), [Logic Programming](#logic-programming)
 
-- Design Pattern: [Async/await](#asyncawait), [Continuation Passing](#continuation-passing), [Message Passing](#message-passing), [Type Constraints](#type-constraints), [Pattern matching](#pattern-matching)
-
 - Polymorphism: [Row Polymorphism](#row-polymorphism)
 
-- Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership)
+- Property: [Referential Transparency](#referential-transparency)
+
+- Subsystem: [Datalog](#datalog), [Module](#module-system)
 
 - Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Chained Try](#chained-try)
 
 - Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing), [Nil Fallthrough](#nil-fallthrough)
-
-- Subsystem: [Datalog](#datalog), [Module](#module-system)
-
-- Property: [Referential Transparency](#referential-transparency)
 
 ## List of features
 
@@ -135,6 +137,10 @@
   - Implementation: [Koka](https://koka-lang.github.io/koka/doc/index.html) [effect system](https://en.wikipedia.org/wiki/Effect_system)
   - Articles: [Stephen Diehl - Exotic Programming Ideas: Part 3 (Effect Systems)](https://www.stephendiehl.com/posts/exotic03.html)
 
+#### First Class Regex
+
+#### First Class Type
+
 #### Fragment-based Code Distribution
   - Description: A compiler infrastructure that identify codes fragment by its hash.
   - Implementaion: [Haskell](https://www.haskell.org/) [fragnix](https://github.com/fragnix/fragnix), [Unison](https://www.unison-lang.org/) [hash identified AST](https://www.unison-lang.org/learn/tour/_big-technical-idea/)
@@ -173,6 +179,7 @@
   - Implementation: [Scheme](https://www.scheme.com/) [Hygienic macro](https://docs.scheme.org/guide/macros/)
 
 ### Lambda Calculus
+  - Implementation: [pLam](https://github.com/slovnicki/pLam)
 
 #### Lazy Evaluation
   - Description: Any portion of the code is evaluated only when needed.
