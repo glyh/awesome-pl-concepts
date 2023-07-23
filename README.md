@@ -34,7 +34,7 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 
 - Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Chained Try](#chained-try), [For Comprehension](#for-comphrehension), [Generalized Update Syntax](#generalized-update-syntax), [Universal Function Call Syntax](#universal-function-call-syntax)
 
-- Type: [Algebraic Data Type](#algebraic-data-type), [Capability Safety](#capability-safety), [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough), [Reference Capabilities](#reference-capabilities), [Class Invariant](#class-invariant)
+- Type: [Algebraic Data Type](#algebraic-data-type), [Capability Safety](#capability-safety), [Class Invariant](#class-invariant), [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough), [Reference Capabilities](#reference-capabilities)
 
 ## List of features
 
