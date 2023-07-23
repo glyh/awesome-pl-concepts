@@ -26,6 +26,8 @@
 
 - Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing), [Nil Fallthrough](#nil-fallthrough)
 
+- Subsystem: [Datalog](#datalog), [Module](#module-system)
+
 - Property: [Referential Transparency](#referential-transparency)
 
 ## List of features
@@ -181,6 +183,8 @@
   - Implementation: [Common Lisp](https://lisp-lang.org/) [macros](https://lispcookbook.github.io/cl-cookbook/macros.html)
 
 #### Logic Programming
+
+#### Module 
 
 #### Message Passing
   - Implementation: [Erlang](https://www.erlang.org/) [concurrent programming](https://www.erlang.org/doc/getting_started/conc_prog.html)
