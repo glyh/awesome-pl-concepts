@@ -1,24 +1,28 @@
 | [Rationale](rationale.md) | [Convention](convention.md) | [Contributing](contributing.md) | [TODO](TODO.md) |
 
+Note: some links are dead down here, indicating I haven't have time to fill in the whole yet.
+
 ## By topic
 
 - Caching: [Caching with Reactive Invalidation](#caching-with-reactive-invalidation) 
 
 - Calculus: [Dot Calculus](#dot-calculus), [Lambda Calculus](#lambda-calculus), [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Term Rewriting](#term-rewriting), [Turing Machine](#turing-machine)
 
-- Code Generation: [Hygienic Macros](#hygienic-macros), [Lisp Macros](#lisp-macros)
+- Code Generation: [Hygienic Macros](#hygienic-macros), [Lisp Macros](#lisp-macros), [Reader Macros](#reader-macros)
 
 - Dependency: [Fragment Based Code Distribution](#fragment-based-code-distribution)
 
-- Design Pattern: [Async/await](#asyncawait), [Continuation Passing](#continuation-passing), [Message Passing](#message-passing), [Type Constraints](#type-constraints), [Pattern matching](#pattern-matching)
+- Design Pattern: [Async/await](#asyncawait), [Continuation Passing](#continuation-passing), [Message Passing](#message-passing), [Type Constraints](#type-constraints)
+
+- Pattern Matching: [Active Pattern](#active-pattern), [Pattern matching](#pattern-matching), [View Pattern](#view-pattern)
 
 - Evaluation: [Compile-time Code Evaluation](#comptime), [Lazy Evaluation](#lazy-evaluation)
 
 - First Class: [First Class Regex](#first-class-regex), [First Class Type](#first-class-type) 
 
-- Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership)
+- Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership), [Reference Counting](#reference-counting)
 
-- Mutitasking: [Async/await](#asyncawait), [Coroutine](#coroutine), [Green Threads](#green-threads), [Symmetric Interaction Calculus](#symmetric-interaction-calculus) 
+- Mutitasking: [Async/await](#asyncawait), [Coroutine](#coroutine), [Green Thread](#green-thread), [Symmetric Interaction Calculus](#symmetric-interaction-calculus) 
 
 - Paradigm: [Functional Programming](#functional-programming), [Logic Programming](#logic-programming)
 
@@ -30,7 +34,7 @@
 
 - Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Chained Try](#chained-try)
 
-- Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing), [Nil Fallthrough](#nil-fallthrough)
+- Type: [Algebraic Data Type](#algebraic-data-type), [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough)
 
 ## List of features
 
@@ -170,9 +174,9 @@
   - Articles:
     - [Vlad Balin - TypeScript: Static or Dynamic? The war is over.](https://itnext.io/typescript-static-or-dynamic-64bceb50b93e)
 
-#### [Green Threads](https://en.wikipedia.org/wiki/Green_thread)
+#### [Green Thread](https://en.wikipedia.org/wiki/Green_thread)
   - Description: An abstraction that allow easily writing [preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code, without actually using OS thread
-  - Implementation: [Java](https://www.java.com/) green threads
+  - Implementation: [Java](https://www.java.com/) green thread
 
 #### Hygienic Macros
   - Description: [Lisp macros](#lisp-macros) that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope).
