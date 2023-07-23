@@ -1,5 +1,7 @@
 | [Rationale](rationale.md) | [Convention](convention.md) | [Contributing](contributing.md) | [TODO](TODO.md) |
 
+Note: some features doesn't have a name, I have to coin it out. That said, please make a PR if you find better term for them.  
+
 ## By topic
 
 - Caching: [Caching with Reactive Invalidation](#caching-with-reactive-invalidation) 
