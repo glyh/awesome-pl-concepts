@@ -32,7 +32,7 @@
 
 - Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Chained Try](#chained-try), [For Comprehension](#for-comphrehension), [Generalized Update Syntax](#generalized-update-syntax), [Universal Function Call Syntax](#universal-function-call-syntax)
 
-- Type: [Algebraic Data Type](#algebraic-data-type), [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough)
+- Type: [Algebraic Data Type](#algebraic-data-type), [Capability Safety](#capability-safety) [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough), [Reference Capabilities](#reference-capabilities)
 
 ## List of features
 
@@ -54,6 +54,10 @@
 #### Caching with Reactive Invalidation
   - Description: Caching the result of function, invalidating the data reactively when the cache are potentially outdated.
   - Implementation: [Skip](http://skiplang.com/docs/tutorial.html) [Caching with reactive invalidation](http://skiplang.com/)
+
+### Capability Safety
+  - Description: Functions cannot access data besides that reachable via their closure, their inputs, and global constants. Generally implied by [referential transparency](#referential-transparency), and incompatible with mutable global variables.
+  - Implementations: [Pony](https://www.ponylang.io/) [Monte](http://www.monte-language.org/) [Wyvern](https://wyvernlang.github.io/)
 
 #### Chained Try
   - Description: A generalization of [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) in [JavaScript](https://www.javascript.com/). A language construct that accepts a series of blocks where each block will be executed only if the previous blocks yield an error. 
@@ -215,6 +219,9 @@
   - Articles: 
     - [sporeboyofbigness - Call for action: let's build a list of features for non-trivial PL features](https://www.reddit.com/r/ProgrammingLanguages/comments/156bfwc/comment/jt047a5/?utm_source=share&utm_medium=web2x&context=3)
 
+### Object Capabilities
+  - Description: See [Capability safety](#capability-safety)
+
 #### Ownership
   - Description: A system that helps compiler decide when to free [heap-allocated memory](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) statically by annotating the ownership of heap allocated variables to entities in the program.
   - Implementation: [Rust](https://www.rust-lang.org/) [ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
@@ -227,6 +234,10 @@
   - Description: Macro system that gets called by the reader, before AST is formed.
   - Implementation: [Common Lisp](https://lisp-lang.org/), [Elixir](https://elixir-lang.org/) [Sigils](https://elixir-lang.org/getting-started/sigils.html) (this is a weaker alternative to reader macro)
 )
+
+### Reference Capabilities
+  - Description: A type system feature in which each reference carries a modifier to the capabilites, which can describe whether reading or writing is allowed, and whether these features are isolated to this reference.
+  - Impelementation: [Pony](https://www.ponylang.io/)
 
 #### Reference Counting
 
