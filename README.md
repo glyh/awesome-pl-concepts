@@ -22,7 +22,7 @@
 
 - Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership)
 
-- Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax)
+- Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Chained Try](#chained-try)
 
 - Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing)
 
@@ -47,6 +47,64 @@
 #### Caching with Reactive Invalidation
   - Description: Caching the result of function, invalidating the data reactively when the cache are potentially outdated.
   - Implementation: [Skip](http://skiplang.com/docs/tutorial.html) [Caching with reactive invalidation](http://skiplang.com/)
+
+#### Chained Try
+  - Description: A generalization of [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) in [JavaScript](https://www.javascript.com/). A language construct that accepts a series of blocks each block will be executed only if the previous blocks yield an error. 
+  - Example Usage:
+  ```js
+  try {
+      assert user_exists(name)
+      current_user = get_user(name)
+      assert user_not_banned(current_user)
+      do_lots_of_stuff_with(current_user)
+  } {
+      deny_login_of_user(name)
+  }
+
+  // Replacing if-and-bind, like Python's walrus operator:
+  try {
+      match = regex.search("\d+(\d)", text)
+      assert match
+      process_numbers(match[0])
+  } {
+      match = regex.search("\w+(\d)", text)
+      assert match
+      process_letters(match[0])
+  } {
+      print("No match.")
+  }
+
+  // Replacing complicated conditions that would otherwise be in a single line.
+  try {
+      assert user.age > 18 and user.has_feature_enabled
+      assert user.has_billing_account and user.get_credits() > 0
+      assert user.get_last_payment().age_in_days < 90
+      process_as_premium_user()
+  } {
+      process_as_normal_user()
+  }
+
+  // Replacing nested catch blocks:
+  try {
+      response = fetch_from_network(resource_id)
+      assert response.network_success
+      value = response.value
+  } {
+      assert resource_id in offline_cache
+      value = offline_cache[resource_id]
+  } {
+      print("Failed to get resource. Use manual value?")
+      response = user_input("Resource override: ")
+      assert not response.cancelled
+      value = response.value
+  } {
+      raise Error('Network not available and ID {resource_id} not in offline cache.')
+  }
+  print(value)
+
+
+  ```
+  - Articles: [BoppreH - a Reply in If-fail-else Construct](https://www.reddit.com/r/ProgrammingLanguages/comments/110bx5e/comment/j88xu52)
 
 #### Compile-time Code Evaluation
   - Description: Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time).
