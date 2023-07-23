@@ -16,7 +16,7 @@
 
 - Evaluation: [Compile-time Code Evaluation](#comptime), [Lazy Evaluation](#lazy-evaluation)
 
-- First Class: [First Class Regex](#first-class-regex), [First Class Type](#first-class-type), [First Class Module](#first-class-module)
+- First Class: [First Class Date](#first-class-date), [First Class Module](#first-class-module), [First Class Regex](#first-class-regex), [First Class Type](#first-class-type)
 
 - Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership), [Reference Counting](#reference-counting)
 
@@ -30,7 +30,7 @@
 
 - Subsystem: [Datalog](#datalog), [Module](#module)
 
-- Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Chained Try](#chained-try), [For Comprehension](#for-comphrehension)
+- Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Chained Try](#chained-try), [For Comprehension](#for-comphrehension), [Generalized Update Syntax](#generalized-update-syntax), [Universal Function Call Syntax](#universal-function-call-syntax)
 
 - Type: [Algebraic Data Type](#algebraic-data-type), [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough)
 
@@ -140,13 +140,15 @@
   - Implementation: [Koka](https://koka-lang.github.io/koka/doc/index.html) [effect system](https://en.wikipedia.org/wiki/Effect_system)
   - Articles: [Stephen Diehl - Exotic Programming Ideas: Part 3 (Effect Systems)](https://www.stephendiehl.com/posts/exotic03.html)
 
-#### First Class Regex
-
-#### First Class Type
+#### First Class Date
 
 #### First Class Module
   - Description: Modules are treated as structs
   - Implementation: [1ML](https://github.com/rossberg/1ml), [Zig](https://ziglang.org)
+
+#### First Class Regex
+
+#### First Class Type
 
 #### Fragment-based Code Distribution
   - Description: A compiler infrastructure that identify codes fragment by its hash.
@@ -221,6 +223,9 @@
   - Implementation: [Haskell](https://www.haskell.org/) [pattern matching](https://www.haskell.org/tutorial/patterns.html)
 
 #### Reader Macro
+  - Description: Macro system that gets called by the reader, before AST is formed.
+  - Implementation: [Common Lisp](https://lisp-lang.org/), [Elixir](https://elixir-lang.org/) [Sigils](https://elixir-lang.org/getting-started/sigils.html) (this is a weaker alternative to reader macro)
+)
 
 #### Reference Counting
 
