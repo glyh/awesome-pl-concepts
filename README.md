@@ -14,7 +14,7 @@
 
 - Pattern Matching: [Active Pattern](#active-pattern), [Pattern matching](#pattern-matching), [View Pattern](#view-pattern)
 
-- Evaluation: [Compile-time Code Evaluation](#comptime), [Lazy Evaluation](#lazy-evaluation)
+- Evaluation: [Compile-time Code Evaluation](#compile-time-code-evaluation), [Lazy Evaluation](#lazy-evaluation)
 
 - First Class: [First Class Date](#first-class-date), [First Class Module](#first-class-module), [First Class Regex](#first-class-regex), [First Class Type](#first-class-type)
 
