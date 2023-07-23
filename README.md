@@ -20,7 +20,7 @@
 
 - Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership), [Reference Counting](#reference-counting)
 
-- Mutitasking: [Async/await](#asyncawait), [Coroutine](#coroutine), [Green Thread](#green-thread), [Symmetric Interaction Calculus](#symmetric-interaction-calculus) 
+- Mutitasking: [Async/await](#asyncawait), [Coroutine](#coroutine), [Green Thread](#green-thread), [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Free Parallelism](#free-parallelism)
 
 - Paradigm: [Functional Programming](#functional-programming), [Logic Programming](#logic-programming)
 
@@ -161,6 +161,10 @@
   - Description: A compiler infrastructure that identify codes fragment by its hash.
   - Implementaion: [Haskell](https://www.haskell.org/) [fragnix](https://github.com/fragnix/fragnix), [Unison](https://www.unison-lang.org/) [hash identified AST](https://www.unison-lang.org/learn/tour/_big-technical-idea/)
   - Articles: [Big Technical Idea on Unison](https://www.unison-lang.org/learn/tour/_big-technical-idea/)
+
+### Free Parallelism
+  - Description: Parallelism is imposed implicitly by the langauge runtime.
+  - Implementation: [Futhark](https://futhark-lang.org/), [HVM](https://github.com/HigherOrderCO/HVM)
 
 ### For Comprehension
 
