@@ -24,7 +24,7 @@
 
 - Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Chained Try](#chained-try)
 
-- Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing)
+- Type: [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Gradual Typing](#gradual-typing), [Nil Fallthrough](#nil-fallthrough)
 
 - Property: [Referential Transparency](#referential-transparency)
 
@@ -36,7 +36,7 @@
 
 #### [Async/await](https://en.wikipedia.org/wiki/Async/await)
   - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial.
-  - Implementation: [Javascript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+  - Implementation: [JavaScript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   - Videos: [Fireship: The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE&t=344s)
 
 #### Automatic Broadcast Implementation
@@ -184,6 +184,11 @@
 
 #### Message Passing
   - Implementation: [Erlang](https://www.erlang.org/) [concurrent programming](https://www.erlang.org/doc/getting_started/conc_prog.html)
+
+#### Nil Fallthrough
+  - Description: A generalization of [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) in [JavaScript](https://www.javascript.com/), where any operation on nil will always yield nil.
+  - Articles: 
+    - [sporeboyofbigness - Call for action: let's build a list of features for non-trivial PL features](https://www.reddit.com/r/ProgrammingLanguages/comments/156bfwc/comment/jt047a5/?utm_source=share&utm_medium=web2x&context=3)
 
 #### Ownership
   - Description: A system that helps compiler decide when to free [heap-allocated memory](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation) statically by annotating the ownership of heap allocated variables to entities in the program.
