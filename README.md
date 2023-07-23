@@ -32,7 +32,7 @@ Note: some links are dead down here, indicating I haven't have time to fill in t
 
 - Subsystem: [Datalog](#datalog), [Module](#module-system)
 
-- Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Chained Try](#chained-try)
+- Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Chained Try](#chained-try), [For Comprehension](#for-comphrehension)
 
 - Type: [Algebraic Data Type](#algebraic-data-type), [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough)
 
