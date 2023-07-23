@@ -212,8 +212,8 @@
 
 #### Module 
 
-#### Message Passing
-  - Implementation: [Erlang](https://www.erlang.org/) [concurrent programming](https://www.erlang.org/doc/getting_started/conc_prog.html)
+#### [Message Passing](https://en.wikipedia.org/wiki/Message_passing)
+  - Implementation: [Erlang](https://www.erlang.org/) [concurrent programming](https://www.erlang.org/doc/getting_started/conc_prog.html), [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
 
 #### Nil Fallthrough
   - Description: A generalization of [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) in [JavaScript](https://www.javascript.com/), where any operation on nil will always yield nil.
