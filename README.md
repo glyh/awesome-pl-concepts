@@ -1,7 +1,5 @@
 | [Rationale](rationale.md) | [Convention](convention.md) | [Contributing](contributing.md) | [TODO](TODO.md) |
 
-Note: some links are dead down here, indicating I haven't have time to fill in the whole yet.
-
 ## By topic
 
 - Caching: [Caching with Reactive Invalidation](#caching-with-reactive-invalidation) 
