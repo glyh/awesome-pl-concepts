@@ -123,6 +123,7 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 ### Class Invariant
   - Constraints of specific types that gets ran across function calls to ensure the data is in correct shape.
   - Implementation [Ada](https://ada-lang.io/) [type invariant](http://www.ada-auth.org/standards/12rat/html/Rat12-2-4.html)
+  - Articles: [Riccardo Bernardini - Reasons for loving Ada: Type invariants (because bugs shouldn't sleep...)](https://dev.to/pinotattari/reasons-for-loving-ada-type-invariants-because-bugs-shouldn-t-sleep-1082)
 
 ### Compile-time Code Evaluation
   - Description: Evaluation of code at [compile time](https://en.wikipedia.org/wiki/Compile_time).
