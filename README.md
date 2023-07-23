@@ -209,6 +209,7 @@
   - Implementation: [Common Lisp](https://lisp-lang.org/) [macros](https://lispcookbook.github.io/cl-cookbook/macros.html)
 
 ### Logic Programming
+  - Implementation: [Prolog](https://en.wikipedia.org/wiki/Prolog)
 
 ### Module 
 
