@@ -8,7 +8,7 @@ Note: some links are dead down here, indicating I haven't have time to fill in t
 
 - Calculus: [Dot Calculus](#dot-calculus), [Lambda Calculus](#lambda-calculus), [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Term Rewriting](#term-rewriting), [Turing Machine](#turing-machine)
 
-- Code Generation: [Hygienic Macros](#hygienic-macros), [Lisp Macros](#lisp-macros), [Reader Macros](#reader-macros)
+- Code Generation: [Hygienic Macro](#hygienic-macro), [Lisp Macro](#lisp-macro), [Reader Macro](#reader-macro)
 
 - Dependency: [Fragment Based Code Distribution](#fragment-based-code-distribution)
 
@@ -30,7 +30,7 @@ Note: some links are dead down here, indicating I haven't have time to fill in t
 
 - Property: [Referential Transparency](#referential-transparency)
 
-- Subsystem: [Datalog](#datalog), [Module](#module-system)
+- Subsystem: [Datalog](#datalog), [Module](#module)
 
 - Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Universal Function Call Syntax](#universal-function-call-syntax), [Generalized Update Syntax](#generalized-update-syntax), [Chained Try](#chained-try), [For Comprehension](#for-comphrehension)
 
@@ -40,11 +40,12 @@ Note: some links are dead down here, indicating I haven't have time to fill in t
 
 #### Actor Model
 
+#### Active Pattern
+
 #### Algebraic Data Type
 
 #### [Async/await](https://en.wikipedia.org/wiki/Async/await)
-  - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial.
-  - Implementation: [JavaScript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+  - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial. Implementation: [JavaScript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   - Videos: [Fireship: The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE&t=344s)
 
 #### Automatic Broadcast Implementation
@@ -150,6 +151,8 @@ Note: some links are dead down here, indicating I haven't have time to fill in t
   - Implementaion: [Haskell](https://www.haskell.org/) [fragnix](https://github.com/fragnix/fragnix), [Unison](https://www.unison-lang.org/) [hash identified AST](https://www.unison-lang.org/learn/tour/_big-technical-idea/)
   - Articles: [Big Technical Idea on Unison](https://www.unison-lang.org/learn/tour/_big-technical-idea/)
 
+#### For Comprehension
+
 #### Formal Methods
   - Description: A series of techiques that helps proving the behavior of the program
   - Implementation: [Coq](https://coq.inria.fr/) [proof assitant](https://en.wikipedia.org/wiki/Proof_assistant)
@@ -178,7 +181,7 @@ Note: some links are dead down here, indicating I haven't have time to fill in t
   - Description: An abstraction that allow easily writing [preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code, without actually using OS thread
   - Implementation: [Java](https://www.java.com/) green thread
 
-#### Hygienic Macros
+#### Hygienic Macro
   - Description: [Lisp macros](#lisp-macros) that follows [lexical scope](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope).
   - Implementation: [Scheme](https://www.scheme.com/) [Hygienic macro](https://docs.scheme.org/guide/macros/)
 
@@ -189,7 +192,9 @@ Note: some links are dead down here, indicating I haven't have time to fill in t
   - Description: Any portion of the code is evaluated only when needed.
   - Implementation: [Haskell](https://www.haskell.org/) [lazy evaluation](https://wiki.haskell.org/Lazy_evaluation)
 
-#### Lisp Macros
+#### Linear Type
+
+#### Lisp Macro
   - Description: [Compile-time](https://en.wikipedia.org/wiki/Compile_time) [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree)-based code generation in a [homoiconic](https://en.wikipedia.org/wiki/Homoiconicity) and [dynamically-typed](https://en.wikipedia.org/wiki/Type_system#Dynamic_type_checking_and_runtime_type_information) language.
   - Implementation: [Common Lisp](https://lisp-lang.org/) [macros](https://lispcookbook.github.io/cl-cookbook/macros.html)
 
@@ -212,6 +217,10 @@ Note: some links are dead down here, indicating I haven't have time to fill in t
 #### Pattern matching 
   - Description: A structural way for obtain data from complicated [data structures](https://en.wikipedia.org/wiki/Data_structure).
   - Implementation: [Haskell](https://www.haskell.org/) [pattern matching](https://www.haskell.org/tutorial/patterns.html)
+
+#### Reader Macro
+
+#### Reference Counting
 
 #### [Referential Transparency](https://en.wikipedia.org/wiki/Referential_transparency)
   - Description: A property for a function where: 1. returns the same for identical arguments; 2. has no other side effects.
@@ -244,3 +253,5 @@ Note: some links are dead down here, indicating I haven't have time to fill in t
 #### [Universal Function Call Syntax](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Description: A syntax sugar for function call that makes chaining function calls easy.
   - Implementation: [Nim](https://nim-lang.org/) [UFCS](https://narimiran.github.io/nim-basics/#_calling_the_procedures), [Elixir](https://elixir-lang.org/) [pipe operator](https://elixir-lang.org/getting-started/enumerables-and-streams.html#the-pipe-operator), [Clojure](https://clojure.org/) [threading macro](https://clojure.org/guides/threading_macros)
+
+#### View Pattern
