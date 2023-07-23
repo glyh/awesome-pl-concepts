@@ -146,6 +146,7 @@
   - Articles: [Stephen Diehl - Exotic Programming Ideas: Part 3 (Effect Systems)](https://www.stephendiehl.com/posts/exotic03.html)
 
 ### First Class Date
+  - Implementation: [Frink](https://frinklang.org/) [Date/Time Handling](https://frinklang.org/#DateTimeHandling)
 
 ### First Class Module
   - Description: Modules are treated as structs
