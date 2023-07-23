@@ -49,7 +49,7 @@
   - Implementation: [Skip](http://skiplang.com/docs/tutorial.html) [Caching with reactive invalidation](http://skiplang.com/)
 
 #### Chained Try
-  - Description: A generalization of [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) in [JavaScript](https://www.javascript.com/). A language construct that accepts a series of blocks each block will be executed only if the previous blocks yield an error. 
+  - Description: A generalization of [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) in [JavaScript](https://www.javascript.com/). A language construct that accepts a series of blocks where each block will be executed only if the previous blocks yield an error. 
   - Example Usage:
   ```js
   try {
