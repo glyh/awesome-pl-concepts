@@ -32,7 +32,7 @@
 
 - Syntax Sugar: [Automatic Broadcast Implementation](#automatic-broadcast-implementation), [Chained Try](#chained-try), [For Comprehension](#for-comphrehension), [Generalized Update Syntax](#generalized-update-syntax), [Universal Function Call Syntax](#universal-function-call-syntax)
 
-- Type: [Algebraic Data Type](#algebraic-data-type), [Capability Safety](#capability-safety) [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough), [Reference Capabilities](#reference-capabilities)
+- Type: [Algebraic Data Type](#algebraic-data-type), [Capability Safety](#capability-safety), [Dependent Type](#dependent-type), [Effect System](#dependent-type), [Generalized Algebraic Data Type](#generalized-algebraic-data-type), [Gradual Typing](#gradual-typing), [Linear Type](#linear-type), [Nil Fallthrough](#nil-fallthrough), [Reference Capabilities](#reference-capabilities)
 
 ## List of features
 
@@ -43,7 +43,8 @@
 #### Algebraic Data Type
 
 #### [Async/await](https://en.wikipedia.org/wiki/Async/await)
-  - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial. Implementation: [JavaScript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+  - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial. 
+  - Implementation: [JavaScript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   - Videos: [Fireship: The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE&t=344s)
 
 #### Automatic Broadcast Implementation
@@ -57,7 +58,7 @@
 
 ### Capability Safety
   - Description: Functions cannot access data besides that reachable via their closure, their inputs, and global constants. Generally implied by [referential transparency](#referential-transparency), and incompatible with mutable global variables.
-  - Implementations: [Pony](https://www.ponylang.io/) [Monte](http://www.monte-language.org/) [Wyvern](https://wyvernlang.github.io/)
+  - Implementations: [Pony](https://www.ponylang.io/), [Monte](http://www.monte-language.org/), [Wyvern](https://wyvernlang.github.io/)
 
 #### Chained Try
   - Description: A generalization of [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) in [JavaScript](https://www.javascript.com/). A language construct that accepts a series of blocks where each block will be executed only if the previous blocks yield an error. 
