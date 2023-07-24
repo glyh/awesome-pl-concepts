@@ -277,6 +277,7 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
     - [Interaction nets](https://dl.acm.org/doi/10.1145/96709.96718)
 
 ### Term Rewriting
+  - Implementation: [Mathematica](https://www.wolfram.com/mathematica/)
 
 ### Trait
   - Description: An interface that allows writing type safe code on different types.
