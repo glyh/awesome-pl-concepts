@@ -20,7 +20,7 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 
 - First Class: [First Class Date](#first-class-date), [First Class Module](#first-class-module), [First Class Regex](#first-class-regex), [First Class Type](#first-class-type)
 
-- Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership), [Reference Counting](#reference-counting)
+- Memory Management: [Garbage Collection](#garbage-collection), [Ownership](#ownership), [Reference Counting](#reference-counting), [Memory Safety](#memory-safety)
 
 - Mutitasking: [Async/await](#asyncawait), [Coroutine](#coroutine), [Green Thread](#green-thread), [Symmetric Interaction Calculus](#symmetric-interaction-calculus), [Free Parallelism](#free-parallelism)
 
@@ -223,6 +223,8 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 ### Logic Programming
   - Implementation: [Prolog](https://en.wikipedia.org/wiki/Prolog)
 
+### Memory Safety
+  - Articles: [Fernando Borretti - Type Systems for Memory Safety](https://borretti.me/article/type-systems-memory-safety)
 ### Module 
 
 ### [Message Passing](https://en.wikipedia.org/wiki/Message_passing)
