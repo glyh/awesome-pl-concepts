@@ -289,6 +289,6 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 
 ### [Universal Function Call Syntax](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
   - Description: A syntax sugar for function call that makes chaining function calls easy.
-  - Implementation: [Nim](https://nim-lang.org/) [UFCS](https://narimiran.github.io/nim-basics/#_calling_the_procedures), [Elixir](https://elixir-lang.org/) [pipe operator](https://elixir-lang.org/getting-started/enumerables-and-streams.html#the-pipe-operator), [Clojure](https://clojure.org/) [threading macro](https://clojure.org/guides/threading_macros)
+  - Implementation: [D](https://dlang.org/) [UFCS](https://tour.dlang.org/tour/en/gems/uniform-function-call-syntax-ufcs), [Elixir](https://elixir-lang.org/) [pipe operator](https://elixir-lang.org/getting-started/enumerables-and-streams.html#the-pipe-operator), [Clojure](https://clojure.org/) [threading macro](https://clojure.org/guides/threading_macros)
 
 ### View Pattern
