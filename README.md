@@ -59,7 +59,7 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
   - Implementation: [Skip](http://skiplang.com/docs/tutorial.html) [Caching with reactive invalidation](http://skiplang.com/)
 
 ### Capability Safety
-  - Description: Functions cannot access data besides that reachable via their closure, their inputs, and global constants. Generally implied by [referential transparency](#referential-transparency), and incompatible with mutable global variables.
+  - Description: A property that functions cannot access data besides that reachable via their closure, their inputs, and global constants. Generally implied by [referential transparency](#referential-transparency), and incompatible with mutable global variables.
   - Implementations: [Pony](https://www.ponylang.io/), [Monte](http://www.monte-language.org/), [Wyvern](https://wyvernlang.github.io/)
 
 ### Chained Try
