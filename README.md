@@ -47,7 +47,7 @@ Note: some features doesn't have a name, I have to coin it out. That said, pleas
 ### [Async/await](https://en.wikipedia.org/wiki/Async/await)
   - Description: A syntax sugar for writing [asynchronous](https://en.wikipedia.org/wiki/Async/await) [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) code that looks serial. 
   - Implementation: [JavaScript](https://www.javascript.com/) [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
-  - Videos: [Fireship: The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE&t=344s)
+  - Videos: [Fireship: The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE)
 
 ### Automatic Broadcast Implementation
   - Description: Given a definition `f: a -> b` and a functor `M`, `f: M a -> M b` is implemented automatically.
